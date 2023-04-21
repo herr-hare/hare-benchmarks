@@ -1,0 +1,73 @@
+PRIME BENCHMARK
+calculate primes from 2 to 10.000.000
+
+tested on debian stable virtual machine
+
+HARE (latest toolchain)
+real	0m15.805s
+user	0m15.235s
+sys	0m0.530s
+
+real	0m15.845s
+user	0m14.981s
+sys	0m0.814s
+
+real	0m15.817s
+user	0m15.792s
+sys	0m0.000s
+
+
+C (gcc 10.2.1)
+real	0m14.599s
+user	0m14.568s
+sys	0m0.001s
+
+real	0m14.455s
+user	0m14.428s
+sys	0m0.000s
+
+real	0m14.524s
+user	0m13.858s
+sys	0m0.625s
+
+
+C (-O3)
+real	0m13.015s
+user	0m12.445s
+sys	0m0.530s
+
+real	0m13.067s
+user	0m13.025s
+sys	0m0.016s
+
+real	0m13.032s
+user	0m13.011s
+sys	0m0.000s
+
+
+GO (1.20)
+real	0m14.353s
+user	0m14.286s
+sys	0m0.031s
+
+real	0m14.330s
+user	0m14.302s
+sys	0m0.000s
+
+real	0m14.304s
+user	0m14.268s
+sys	0m0.000s
+
+
+JAVA (openjdk 11)
+real	0m14.319s
+user	0m12.903s
+sys	0m1.335s
+
+real	0m14.155s
+user	0m14.091s
+sys	0m0.031s
+
+real	0m14.123s
+user	0m14.059s
+sys	0m0.031s
